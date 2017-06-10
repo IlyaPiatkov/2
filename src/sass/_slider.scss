@@ -1,0 +1,65 @@
+.slider {
+	margin: 0 auto;
+	max-width: 1248px;
+}
+.slider img {
+	width: 100%;
+	height: 100%;
+	animation: opacity 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-ms-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

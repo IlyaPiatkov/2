@@ -1,0 +1,61 @@
+.footer-page {
+	background: $background-dark;
+}
+.footer-page__wrapper {
+	@include container;
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: $color-white; 
+}
+.footer-page__copyright {
+	width: 350px;
+}
+.footer-page__copyright a{
+	color: $color-white; 
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:active {
+		opacity: 0.5
+	}
+}
+.footer-page__list {
+	margin: 0 0 ;
+	width: 350px;
+	list-style: none;
+}
+.footer-page__list a {
+	color: $color-white;
+	&:hover {
+		text-decoration: none;
+	}
+	&:active {
+		opacity: 0.5
+	} 
+}
+.footer-page__container-logo {
+	display: flex;
+	width: 350px;
+}
+.footer-page__logo {
+	min-width: 100px;
+	min-height: 100px;
+	background: $color-white;
+}
+.footer-page__logo-info {
+	margin-left: 15px;
+}
+.footer-page__logo-info h1{
+	@include heder-title;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	color: $color-white;	
+}
+.footer-page__logo-info span {
+	@include heder-title;
+	font-size: 16px;
+	line-height: 20px;
+	color: $color-white;
+}

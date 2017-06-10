@@ -1,0 +1,11 @@
+@mixin container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+@mixin heder-title {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'Times New Roman', 'arial', sans-serif;
+	color: #767676;
+} 

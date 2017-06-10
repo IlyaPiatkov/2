@@ -1,0 +1,37 @@
+.header-page {
+	background: $background;
+}
+.header-page__wrapper {
+	@include container;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 65px 10px;
+}
+.header-page__container-logo {
+	display: flex;
+	flex-direction: row;
+}
+.header-page__logo {
+	min-width: 100px;
+	min-height: 100px;
+	background: $background-dark;
+}
+.header-page__logo-info {
+	margin-left: 15px;
+}
+.header-page__logo-info h1{
+	@include heder-title;
+	margin: 0 0 10px 0;
+	font-weight: bold;	
+}
+.header-page__logo-info span {
+	@include heder-title;
+	font-size: 16px;
+	line-height: 20px;
+}
+.header-page__container-phone {
+	@include heder-title;
+	display: flex;
+	flex-direction: column;
+}
