@@ -4,12 +4,15 @@
 .footer-page__wrapper {
 	@include container;
 	display: flex;
-	padding-top: 50px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 40px;
 	padding-bottom: 50px;
 	color: $color-white; 
 }
 .footer-page__copyright {
-	width: 350px;
+	max-width: 350px;
+	padding-top: 10px;
 }
 .footer-page__copyright a{
 	color: $color-white; 
@@ -22,8 +25,9 @@
 	}
 }
 .footer-page__list {
-	margin: 0 0 ;
-	width: 350px;
+	margin: 0;
+	padding: 10px;
+	max-width: 250px;
 	list-style: none;
 }
 .footer-page__list a {
@@ -37,7 +41,8 @@
 }
 .footer-page__container-logo {
 	display: flex;
-	width: 350px;
+	padding-top: 10px;
+	max-width: 350px;
 }
 .footer-page__logo {
 	width: 100px;

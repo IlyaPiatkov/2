@@ -5,6 +5,7 @@
 	@include container;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 65px 10px;
 }
