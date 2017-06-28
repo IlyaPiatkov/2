@@ -7,6 +7,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	min-width: 305px;
 	padding: 65px 10px;
 }
 .header-page__container-logo {
@@ -19,20 +20,16 @@
 	background: $background-dark;
 }
 .header-page__logo-info {
-	margin-left: 15px;
+	margin-left: 12px;
 }
 .header-page__logo-info h1{
 	@include heder-title;
-	margin: 0 0 10px 0;
-	font-weight: bold;	
 }
 .header-page__logo-info span {
-	@include heder-title;
-	font-size: 16px;
-	line-height: 20px;
+	@include info-title;
 }
 .header-page__container-phone {
-	@include heder-title;
+	@include phone-title;
 	display: flex;
 	flex-direction: column;
 }
